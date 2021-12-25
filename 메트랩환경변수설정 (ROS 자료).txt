@@ -1,0 +1,60 @@
+setenv ('NVIDIA_CUDNN','C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\cuDNN');
+setenv ('CUDA_PATH','C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0');
+setenv ('OPENCV_DIR','C:\Program Files\opencv\build');
+setenv ('NVIDIA_TENSORRT', 'C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\TensorRT-5.1.5.0\');
+setenv('PATH',...
+    ['C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\bin; C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\cuDNN\bin;'...
+     'C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\TensorRT-5.1.5.0\bin; C:\Program Files\opencv\build\x64\vc15\bin '...
+    getenv('PATH')]);
+
+
+['C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\bin; C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\cuDNN\bin;'...
+   'C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\TensorRT-5.1.5.0\bin; C:\Program Files\opencv\build\x64\vc15\bin '...
+  getenv('PATH')]);
+
+
+데이터베이스 구축  -- 청소기에서 주는 데이터를 어떻게 구축할지 
+로봇청소기 (사전) 조사
+청소기 센서 
+
+통신쪽 분야  
+
+통신 규약 만들기 
+
+-------------------------
+https://github.com/yoneken/rosserial_stm32
+M4 통신
+
+-----------------
+https://changun516.tistory.com/27
+ROS 개념
+-------------------
+https://www.youtube.com/watch?v=pkM9bWMvu_s
+선
+https://cafe.naver.com/openrt
+http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29
+https://cafe.naver.com/openrt
+http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29
+https://cafe.naver.com/openrt
+https://github.com/terrychenism/OpenCV_Coding_Expt/blob/master/mouse_event.cpp
+
+--------------------------------
+
+https://enssionaut.com/board_robotics/974   
+-------------------------------------------------------
+https://kr.mathworks.com/help/ros/ug/call-and-provide-ros-services.html
+https://kr.mathworks.com/help/ros/ref/node.html
+
+https://pinkwink.kr/1188
+
+https://kr.mathworks.com/help/ros/ug/work-with-basic-ros-messages.html
+https://kr.mathworks.com/help/ros/ref/simpleactionclient.html
+https://kr.mathworks.com/help/ros/ug/work-with-basic-ros-messages.html
+https://ai-mrkogao.github.io/reinforcement%20learning/ROSRL/
+https://kr.mathworks.com/help/ros/ref/subscriber.html
+
+https://cafe.naver.com/openrt/8558
+https://cafe.naver.com/openrt
+-----------------------------------------------
+시물레이터 
+https://github.com/ethz-asl/rotors_simulator
